@@ -3,6 +3,7 @@ A program that predicts a film's IMDB rating, based on the types of words and nu
 
 
 This project can be split into 2 sections:
+
 1 - Data Collection
 The MAT (Multidimensional Analysis Tagger - download linked below) by Andrea Nini was used on a number of film scripts found on the internet (that came with each film's IMDB title code) to tag each word in each film script. These tags were then counted and this data was combined with their film rating, gained by web scraping IMDB with the program IMDBRatingGetter. The result of this can be seen in the CSV file "Statistics_MAT_raw_texts.csv".
 
